@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "sampleMicroserviceApplication",
+    "packageName": "com.app",
+    "packageFolder": "com/app",
+    "serverPort": 9091,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": [
+      "en",
+      "ko"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "ZTIxYzhiMzBhZTkxOTNkMzhiNDRmMzJlZTdiMDdkNDViZGRkOGNhNGVjOWVhN2U3NTU1NTY1MmExYThjZjY3ODJjNjc0YTA5MWE1Y2M5OGNkZjQ5YmQ2ZWIwYWFmMzYzMDY3NWE5MDE1Mjk0NGY2ZmZlMTdlMTA0Y2M2NmFlOGI=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "sglee21",
+  "repository-name": "sample-microservice-application"
+}
